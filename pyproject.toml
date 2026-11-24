@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kexia-cancer-research"
+version = "0.1.0"
+description = "Preclinical breast-cancer drug-response modelling and mathematical simulation"
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "Code: MIT; data: governed by upstream source terms"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-q"
+

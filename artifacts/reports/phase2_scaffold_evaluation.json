@@ -1,0 +1,7 @@
+{
+  "structures": 210,
+  "scaffold_groups": 193,
+  "held_out_scaffold_groups": 38,
+  "train_test_scaffold_overlap": 0,
+  "acyclic_handling": "Empty Murcko scaffolds are grouped by verified chemical identity, not combined into one artificial scaffold."
+}

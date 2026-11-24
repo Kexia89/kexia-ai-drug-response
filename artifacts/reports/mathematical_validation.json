@@ -1,0 +1,75 @@
+{
+  "experiment_1": {
+    "question": "Can endpoint concentration-response models predict held-out concentrations?",
+    "design": "Interleaved concentration holdout within each real cell-compound curve; fit uses remaining concentrations.",
+    "metrics": {
+      "hill_3_parameter": {
+        "held_out_points": 631,
+        "pairs": 250,
+        "mae": 0.08642451765909213,
+        "rmse": 0.11918378652329399,
+        "mae_95_ci": [
+          0.08018001304129334,
+          0.09264144942137803
+        ],
+        "rmse_95_ci": [
+          0.10859737796539091,
+          0.12988826272873302
+        ]
+      },
+      "hill_zero_bottom": {
+        "held_out_points": 631,
+        "pairs": 250,
+        "mae": 0.08487433101951812,
+        "rmse": 0.11495192794626449,
+        "mae_95_ci": [
+          0.07894333994207972,
+          0.09095090627562204
+        ],
+        "rmse_95_ci": [
+          0.10611740347116758,
+          0.12504431335066715
+        ]
+      },
+      "log_linear": {
+        "held_out_points": 631,
+        "pairs": 250,
+        "mae": 0.08695375519879633,
+        "rmse": 0.11732109764067714,
+        "mae_95_ci": [
+          0.08079351820894151,
+          0.09298091188853563
+        ],
+        "rmse_95_ci": [
+          0.10889436895614933,
+          0.1256805724432882
+        ]
+      }
+    }
+  },
+  "experiment_2": {
+    "question": "Which mathematical endpoint model predicts best?",
+    "models": [
+      "hill_3_parameter",
+      "hill_zero_bottom",
+      "log_linear"
+    ],
+    "same_holdout_for_all_models": true
+  },
+  "experiment_3": {
+    "status": "Implemented by simulation.sensitivity_ensemble; dynamic parameters remain user-defined without temporal data."
+  },
+  "experiment_4": {
+    "status": "Not performed",
+    "reason": "The extracted public breast raw data contains one endpoint duration only; independent temporal observations are unavailable."
+  },
+  "raw_qc": {
+    "plates_total": 2389,
+    "plates_with_valid_controls": 2389,
+    "single_agent_wells_normalized": 252415,
+    "fraction_below_zero": 0.0002693976190004556,
+    "fraction_above_one": 0.31231899847473404,
+    "normalization": "(intensity - median blank B)/(median vehicle NC-1 - median blank B), within plate"
+  },
+  "interpretation": "These tests validate endpoint viability-curve interpolation, not a tumour-population ODE or a death-rate EC50."
+}

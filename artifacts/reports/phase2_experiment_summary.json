@@ -1,0 +1,53 @@
+{
+  "audit": {
+    "rows": 13388,
+    "exact_duplicate_rows": 0,
+    "duplicate_cell_drug_rows": 0,
+    "duplicate_curve_ids": 0,
+    "drug_names_with_multiple_ids": {
+      "Acetalax": 2,
+      "Dactinomycin": 2,
+      "Docetaxel": 2,
+      "Fulvestrant": 2,
+      "GSK343": 2,
+      "Oxaliplatin": 2,
+      "Selumetinib": 2,
+      "Ulixertinib": 2,
+      "Uprosertib": 2
+    },
+    "chemical_identities_with_multiple_drug_ids": {
+      "INCHIKEY:AXTAPYRUEKNRBA-JTQLQIEISA-N": 2,
+      "INCHIKEY:CYOHGALHFOKKQC-UHFFFAOYSA-N": 2,
+      "INCHIKEY:KSERXGMCDHOLSS-LJQANCHMSA-N": 2,
+      "INCHIKEY:OGAPHRMCCQCJOE-BNTLRKBRSA-N": 2,
+      "INCHIKEY:PHPUXYRXPHEJDF-UHFFFAOYSA-N": 2,
+      "INCHIKEY:RJURFGZVJUQBHK-IIXSONLDSA-N": 2,
+      "INCHIKEY:ULNXAWLQFZMIHX-UHFFFAOYSA-N": 2,
+      "INCHIKEY:VWUXBMIQPBEWFH-WCCTWKNTSA-N": 2,
+      "INCHIKEY:ZDZOTLJHXYCWBA-VCVYQWHSSA-N": 2
+    },
+    "original_compound_split_identity_overlap": [
+      "INCHIKEY:CYOHGALHFOKKQC-UHFFFAOYSA-N",
+      "INCHIKEY:KSERXGMCDHOLSS-LJQANCHMSA-N",
+      "INCHIKEY:RJURFGZVJUQBHK-IIXSONLDSA-N",
+      "INCHIKEY:ZDZOTLJHXYCWBA-VCVYQWHSSA-N"
+    ],
+    "target_definition": "LN_IC50 = natural logarithm of fitted IC50 in micromolar; IC50_uM = exp(LN_IC50)."
+  },
+  "independent_evaluation": "Fixed tests were not used for feature selection or hyperparameter tuning.",
+  "expression": "Variance selection, scaling and PCA are fit on unique training cells only for every split.",
+  "expanded_molecular": "Imputation and univariate feature selection are inside the training-only sklearn pipeline.",
+  "chemical": "Only exact verified ChEMBL/InChIKey structures; chemical evaluation uses identical rows for fair comparison.",
+  "subtype_error_analysis": "Not reported unless a verified subtype annotation is present; no subtype is inferred.",
+  "outputs": [
+    "phase2_dataset_audit.json",
+    "phase2_errors_by_cell.csv",
+    "phase2_errors_by_compound.csv",
+    "phase2_feature_importance.csv",
+    "phase2_interval_calibration.csv",
+    "phase2_model_comparison.csv",
+    "phase2_model_comparison.partial.csv",
+    "phase2_predictions.csv.gz",
+    "phase2_predictions.partial.csv.gz"
+  ]
+}

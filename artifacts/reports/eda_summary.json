@@ -1,0 +1,80 @@
+{
+  "source_file": "GDSC2_fitted_dose_response_27Oct23.xlsx",
+  "models": 52,
+  "compounds": 295,
+  "observations": 13388,
+  "raw_wells_extracted": 2192303,
+  "known_requested_models": {
+    "MCF-7": true,
+    "MDA-MB-231": true,
+    "T47D": true,
+    "BT-474": true,
+    "SK-BR-3": false
+  },
+  "missing_percent": {
+    "LN_IC50": 0.0,
+    "AUC": 0.0,
+    "RMSE": 0.0,
+    "Z_SCORE": 0.0,
+    "MIN_CONC": 0.0,
+    "MAX_CONC": 0.0
+  },
+  "distributions": {
+    "LN_IC50": {
+      "count": 13388.0,
+      "mean": 3.0845255344338214,
+      "std": 2.6514984227887672,
+      "min": -7.568085,
+      "25%": 1.8314192500000002,
+      "50%": 3.4786685000000004,
+      "75%": 4.872897249999999,
+      "max": 12.265135
+    },
+    "IC50_uM": {
+      "count": 13388.0,
+      "mean": 471.0096962012457,
+      "std": 5171.105356131502,
+      "min": 0.0005166809458355111,
+      "25%": 6.242740890702436,
+      "50%": 32.41653073202586,
+      "75%": 130.6990370815592,
+      "max": 212168.27737602667
+    },
+    "AUC": {
+      "count": 13388.0,
+      "mean": 0.8971193621900211,
+      "std": 0.13218568776741701,
+      "min": 0.030137,
+      "25%": 0.8702705,
+      "50%": 0.951742,
+      "75%": 0.97708775,
+      "max": 0.996614
+    },
+    "RMSE": {
+      "count": 13388.0,
+      "mean": 0.08432389520466088,
+      "std": 0.04179399553233641,
+      "min": 0.008081,
+      "25%": 0.053841,
+      "50%": 0.078298,
+      "75%": 0.10682175000000001,
+      "max": 0.29961
+    }
+  },
+  "genomics": {
+    "curated_mutation_features": 16,
+    "curated_cnv_features": 16,
+    "expression_matrix_included": false,
+    "expression_omission": "Official processed RNA-seq archive is ~1.29 GB; deliberately excluded from first run."
+  },
+  "quality": {
+    "rmse_max": 0.29961,
+    "rmse_gt_0_3": 0,
+    "official_release_rule": "Curves with RMSE > 0.3 are excluded before release (Sanger documentation)."
+  },
+  "definitions": {
+    "LN_IC50": "Natural logarithm of fitted IC50; concentrations are micromolar. IC50_uM = exp(LN_IC50).",
+    "AUC": "Fraction of total fitted area between the lowest and highest screened concentrations; an experimental curve summary, not clinical efficacy.",
+    "raw_intensity": "Unnormalised plate signal; not labelled viability until control normalization and QC are applied."
+  }
+}

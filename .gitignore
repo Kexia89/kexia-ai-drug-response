@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+*.log
+.pytest_cache/
+.venv/
+.env
+.DS_Store
+Thumbs.db
+
+# Upstream data are downloaded locally and retain their original terms.
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Trained artifacts are regenerated locally. Redistribution may require separate
+# review of the upstream data terms.
+artifacts/models/*.joblib
+artifacts/models/*.pt
+
+# Local Streamlit state.
+.streamlit/secrets.toml
+

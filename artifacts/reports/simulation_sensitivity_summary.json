@@ -1,0 +1,30 @@
+{
+  "method": "uniform global sampling; Spearman rank correlation",
+  "samples": 250,
+  "correlations": {
+    "proliferation_rate_per_hour": {
+      "final_population": 0.6071156338501416,
+      "final_resistant_fraction": -0.6253305812893005
+    },
+    "kmax_per_hour": {
+      "final_population": -0.4698564777036432,
+      "final_resistant_fraction": 0.5391235059760956
+    },
+    "ec50_uM": {
+      "final_population": 0.45997369557912926,
+      "final_resistant_fraction": -0.4878824941199059
+    },
+    "initial_resistant_fraction": {
+      "final_population": 0.20792358277732442,
+      "final_resistant_fraction": 0.3270415206643306
+    },
+    "resistant_kmax_per_hour": {
+      "final_population": -0.040882446119137904,
+      "final_resistant_fraction": -0.08411078577257236
+    },
+    "resistant_ec50_uM": {
+      "final_population": 0.09125176402822444,
+      "final_resistant_fraction": 0.03912369797916766
+    }
+  }
+}

@@ -1,0 +1,8 @@
+* text=auto eol=lf
+*.png binary
+*.joblib binary
+*.gz binary
+*.parquet binary
+*.xlsx binary
+*.zip binary
+

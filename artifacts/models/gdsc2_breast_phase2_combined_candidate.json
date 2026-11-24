@@ -1,0 +1,15 @@
+{
+  "model_version": "phase2_combined_candidate_2026-11-17",
+  "created_at_utc": "2026-11-18T02:54:04.864248+00:00",
+  "target": "LN_IC50 = ln(IC50 in micromolar)",
+  "training_rows": 13388,
+  "training_cells": 52,
+  "expression_transform": {
+    "training_cells_with_expression": 51,
+    "selected_by_train_variance": 2000,
+    "components": 10,
+    "explained_variance_sum": 0.5571934580802917
+  },
+  "intended_use": "Preclinical computational hypothesis generation for represented feature schema only.",
+  "evaluation_note": "Performance claims must use held-out Phase 2 reports, not this all-data refit."
+}

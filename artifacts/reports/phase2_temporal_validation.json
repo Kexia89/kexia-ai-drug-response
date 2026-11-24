@@ -1,0 +1,13 @@
+{
+  "status": "Partial validation of untreated logistic growth only",
+  "experiments": 3,
+  "cell_lines": [
+    "BT-474",
+    "MCF7",
+    "MDA-MB-231"
+  ],
+  "median_test_nrmse": 0.6691725440830494,
+  "design": "Chronological 70/30 split; late times are never used for fitting.",
+  "excluded": "Whole-plate all-zero acquisition gaps and nonpositive counts are excluded from fitting but retained in the processed data.",
+  "drug_dynamics_status": "Not validated. The source uses pulsed doxorubicin, serial dosing and delayed death/regrowth; Kexia's current constant-concentration Hill kill-rate ODE does not encode those interventions."
+}

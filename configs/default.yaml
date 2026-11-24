@@ -1,0 +1,18 @@
+seed: 42
+target: LN_IC50
+quality:
+  max_rmse: 0.3
+features:
+  max_mutation_genes: 250
+  max_cnv_genes: 250
+models:
+  test_size: 0.2
+  ridge_alpha: 10.0
+  random_forest_estimators: 300
+  random_forest_min_samples_leaf: 2
+uncertainty:
+  bootstrap_replicates: 30
+simulation:
+  default_duration_hours: 240
+  points: 300
+

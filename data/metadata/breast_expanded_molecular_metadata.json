@@ -1,0 +1,11 @@
+{
+  "generated_at_utc": "2026-11-17T04:08:03.675402+00:00",
+  "join_identifier": "SANGER_MODEL_ID",
+  "models": 52,
+  "mutation_driver_features": 161,
+  "cnv_driver_features": 769,
+  "mutation_models_available": 51,
+  "cnv_models_available": 52,
+  "selection": "All genes present in official driver summaries; no response-informed gene filtering.",
+  "duplicate_handling": "Mutation=max binary across records; CNV=median total copy number across sources."
+}

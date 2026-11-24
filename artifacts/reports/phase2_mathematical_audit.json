@@ -1,0 +1,27 @@
+{
+  "normalization": {
+    "plates": 2389,
+    "wells": 252415,
+    "fraction_above_one": 0.31231899847473404,
+    "fraction_below_zero": 0.0002693976190004556,
+    "plates_fraction_above_one_median": 0.2857142857142857,
+    "plates_fraction_above_one_p95": 0.5178571428571429,
+    "dynamic_range_median": 26187.0,
+    "vehicle_cv_median": 0.11901150171869952,
+    "spearman_fraction_above_one": {
+      "dynamic_range": 0.030845678050185992,
+      "vehicle_cv": -0.10165445538819291,
+      "blank_cv": -0.07346314217499786
+    },
+    "interpretation": "Values above 1 are retained. They indicate signal above the within-plate vehicle-control median, which can reflect control variability, measurement noise or biological variation; they are not automatically invalid."
+  },
+  "hill_endpoint_models": {
+    "curves_audited": 120,
+    "fraction_ec50_inside_tested_range": 0.7083333333333334,
+    "covariance_condition_median": 6093046.542294884,
+    "extrapolation_pairs": 120,
+    "extrapolation_mae": 0.18108368634121602,
+    "leave_one_out_log10_ec50_sd_median": 0.3830819504698471,
+    "dynamic_validation_status": "Not validated: these are endpoint concentration-response data, not independent temporal trajectories."
+  }
+}

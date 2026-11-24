@@ -1,0 +1,35 @@
+{
+  "rows": 13388,
+  "exact_duplicate_rows": 0,
+  "duplicate_cell_drug_rows": 0,
+  "duplicate_curve_ids": 0,
+  "drug_names_with_multiple_ids": {
+    "Acetalax": 2,
+    "Dactinomycin": 2,
+    "Docetaxel": 2,
+    "Fulvestrant": 2,
+    "GSK343": 2,
+    "Oxaliplatin": 2,
+    "Selumetinib": 2,
+    "Ulixertinib": 2,
+    "Uprosertib": 2
+  },
+  "chemical_identities_with_multiple_drug_ids": {
+    "INCHIKEY:AXTAPYRUEKNRBA-JTQLQIEISA-N": 2,
+    "INCHIKEY:CYOHGALHFOKKQC-UHFFFAOYSA-N": 2,
+    "INCHIKEY:KSERXGMCDHOLSS-LJQANCHMSA-N": 2,
+    "INCHIKEY:OGAPHRMCCQCJOE-BNTLRKBRSA-N": 2,
+    "INCHIKEY:PHPUXYRXPHEJDF-UHFFFAOYSA-N": 2,
+    "INCHIKEY:RJURFGZVJUQBHK-IIXSONLDSA-N": 2,
+    "INCHIKEY:ULNXAWLQFZMIHX-UHFFFAOYSA-N": 2,
+    "INCHIKEY:VWUXBMIQPBEWFH-WCCTWKNTSA-N": 2,
+    "INCHIKEY:ZDZOTLJHXYCWBA-VCVYQWHSSA-N": 2
+  },
+  "original_compound_split_identity_overlap": [
+    "INCHIKEY:CYOHGALHFOKKQC-UHFFFAOYSA-N",
+    "INCHIKEY:KSERXGMCDHOLSS-LJQANCHMSA-N",
+    "INCHIKEY:RJURFGZVJUQBHK-IIXSONLDSA-N",
+    "INCHIKEY:ZDZOTLJHXYCWBA-VCVYQWHSSA-N"
+  ],
+  "target_definition": "LN_IC50 = natural logarithm of fitted IC50 in micromolar; IC50_uM = exp(LN_IC50)."
+}

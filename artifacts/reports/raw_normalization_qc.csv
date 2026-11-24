@@ -1,0 +1,2 @@
+plates_total,plates_with_valid_controls,single_agent_wells_normalized,fraction_below_zero,fraction_above_one,normalization
+2389,2389,252415,0.0002693976190004556,0.31231899847473404,"(intensity - median blank B)/(median vehicle NC-1 - median blank B), within plate"

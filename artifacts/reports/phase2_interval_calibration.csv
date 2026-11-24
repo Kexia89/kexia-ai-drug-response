@@ -1,0 +1,5 @@
+protocol,calibration_group,fit_groups,calibration_groups,test_groups,calibration_rows,test_rows,alpha,half_width,empirical_coverage,mean_interval_width
+A_known_entities_new_pairs,SANGER_MODEL_ID,42,10,52,1916,2677,0.05,3.361588199459031,0.9764661935001868,6.723176398918062
+B_unseen_cells,SANGER_MODEL_ID,34,8,10,2019,2131,0.05,2.950284734705117,0.9033317691224777,5.900569469410234
+C_unseen_chemical_identities,CHEMICAL_IDENTITY,184,45,57,2034,2783,0.05,3.503490564446676,0.9202299676607977,7.006981128893352
+D_unseen_cells_and_chemical_identities,SANGER_MODEL_ID,34,8,10,1598,443,0.05,2.855541827232748,0.7900677200902935,5.711083654465496

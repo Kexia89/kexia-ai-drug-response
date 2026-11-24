@@ -1,0 +1,255 @@
+{
+  "selected_model": "gradient_boosting",
+  "candidate_calibration_metrics": {
+    "ridge": {
+      "mae": 1.168222387204789,
+      "rmse": 1.53927932327994,
+      "r2": 0.6503032581052054,
+      "pearson": 0.8090581148485828,
+      "spearman": 0.7463141555776285
+    },
+    "random_forest": {
+      "mae": 1.0529561549390536,
+      "rmse": 1.3907618646098558,
+      "r2": 0.7145288254432229,
+      "pearson": 0.8456834504665349,
+      "spearman": 0.779945615766803
+    },
+    "gradient_boosting": {
+      "mae": 0.9484696339353123,
+      "rmse": 1.267069970205663,
+      "r2": 0.763049346349717,
+      "pearson": 0.8735983089690921,
+      "spearman": 0.8233342395420585
+    }
+  },
+  "target": "LN_IC50",
+  "features": {
+    "numeric": [
+      "MIN_CONC",
+      "MAX_CONC",
+      "ploidy_snp6",
+      "ploidy_wes",
+      "mutational_burden",
+      "doubling_time_hours",
+      "growth_rate_per_hour",
+      "MUT_TP53",
+      "MUT_PIK3CA",
+      "MUT_PTEN",
+      "MUT_BRCA1",
+      "MUT_BRCA2",
+      "MUT_ERBB2",
+      "MUT_ESR1",
+      "MUT_RB1",
+      "MUT_AKT1",
+      "MUT_CDH1",
+      "MUT_GATA3",
+      "MUT_MAP3K1",
+      "MUT_CCND1",
+      "MUT_MYC",
+      "MUT_FGFR1",
+      "MUT_PALB2",
+      "CN_TP53",
+      "CN_PIK3CA",
+      "CN_PTEN",
+      "CN_BRCA1",
+      "CN_BRCA2",
+      "CN_ERBB2",
+      "CN_ESR1",
+      "CN_RB1",
+      "CN_AKT1",
+      "CN_CDH1",
+      "CN_GATA3",
+      "CN_MAP3K1",
+      "CN_CCND1",
+      "CN_MYC",
+      "CN_FGFR1",
+      "CN_PALB2"
+    ],
+    "categorical": [
+      "PUTATIVE_TARGET",
+      "PATHWAY_NAME",
+      "SCREENING_SITE"
+    ]
+  },
+  "protocols": {
+    "A_known_entities_new_pairs": {
+      "split": {
+        "train_rows": 10711,
+        "test_rows": 2677,
+        "train_cells": 52,
+        "test_cells": 52,
+        "overlap_cells": 52,
+        "train_drugs": 295,
+        "test_drugs": 291,
+        "overlap_drugs": 291
+      },
+      "metrics": {
+        "mae": 0.9179848321577653,
+        "rmse": 1.2284898254617356,
+        "r2": 0.7773176548236619,
+        "pearson": 0.8819580476166399,
+        "spearman": 0.8334006394250084
+      },
+      "bootstrap_95_ci": {
+        "mae": {
+          "low_95": 0.8885525130319023,
+          "high_95": 0.9446491718856803
+        },
+        "rmse": {
+          "low_95": 1.1888276796735155,
+          "high_95": 1.2742264544034314
+        },
+        "r2": {
+          "low_95": 0.7525171951494866,
+          "high_95": 0.7945959519368944
+        },
+        "pearson": {
+          "low_95": 0.8679293282343873,
+          "high_95": 0.8918399772278468
+        },
+        "spearman": {
+          "low_95": 0.8173624745857248,
+          "high_95": 0.8469256554397007
+        }
+      },
+      "prediction_interval_half_width": 2.5554360128828604,
+      "prediction_interval_empirical_coverage": 0.9596563317146058
+    },
+    "B_unseen_cells": {
+      "split": {
+        "train_rows": 11257,
+        "test_rows": 2131,
+        "train_cells": 42,
+        "test_cells": 10,
+        "overlap_cells": 0,
+        "train_drugs": 295,
+        "test_drugs": 295,
+        "overlap_drugs": 295
+      },
+      "metrics": {
+        "mae": 1.3561112119811622,
+        "rmse": 1.7582228196066434,
+        "r2": 0.5824974313759606,
+        "pearson": 0.7743413333671106,
+        "spearman": 0.6979100476839103
+      },
+      "bootstrap_95_ci": {
+        "mae": {
+          "low_95": 1.3126394948528701,
+          "high_95": 1.3992456498062773
+        },
+        "rmse": {
+          "low_95": 1.6962981510444874,
+          "high_95": 1.8198058175266179
+        },
+        "r2": {
+          "low_95": 0.5412790973925229,
+          "high_95": 0.6160676160907604
+        },
+        "pearson": {
+          "low_95": 0.7499671101290547,
+          "high_95": 0.794146947401428
+        },
+        "spearman": {
+          "low_95": 0.6715812633321185,
+          "high_95": 0.7201975009676614
+        }
+      },
+      "prediction_interval_half_width": 2.423214278857878,
+      "prediction_interval_empirical_coverage": 0.8526513374002815
+    },
+    "C_unseen_compounds": {
+      "split": {
+        "train_rows": 10719,
+        "test_rows": 2669,
+        "train_cells": 52,
+        "test_cells": 52,
+        "overlap_cells": 52,
+        "train_drugs": 236,
+        "test_drugs": 59,
+        "overlap_drugs": 0
+      },
+      "metrics": {
+        "mae": 1.4575836922285805,
+        "rmse": 2.0116781755761846,
+        "r2": 0.45485321498055553,
+        "pearson": 0.6917033594667993,
+        "spearman": 0.6140569817601121
+      },
+      "bootstrap_95_ci": {
+        "mae": {
+          "low_95": 1.4054630376804091,
+          "high_95": 1.517208260819467
+        },
+        "rmse": {
+          "low_95": 1.91569541865987,
+          "high_95": 2.1051338653259997
+        },
+        "r2": {
+          "low_95": 0.41626382883388746,
+          "high_95": 0.49028152137780695
+        },
+        "pearson": {
+          "low_95": 0.6609394392058477,
+          "high_95": 0.7174556904098258
+        },
+        "spearman": {
+          "low_95": 0.5865644646961412,
+          "high_95": 0.6383622969168498
+        }
+      },
+      "prediction_interval_half_width": 2.569729399943318,
+      "prediction_interval_empirical_coverage": 0.8666167103784189
+    },
+    "D_unseen_cells_and_compounds": {
+      "split": {
+        "train_rows": 9011,
+        "test_rows": 423,
+        "train_cells": 42,
+        "test_cells": 10,
+        "overlap_cells": 0,
+        "train_drugs": 236,
+        "test_drugs": 59,
+        "overlap_drugs": 0
+      },
+      "metrics": {
+        "mae": 1.7669985519299807,
+        "rmse": 2.376988239434192,
+        "r2": 0.3210693766287146,
+        "pearson": 0.5735509742651017,
+        "spearman": 0.45190242918282963
+      },
+      "bootstrap_95_ci": {
+        "mae": {
+          "low_95": 1.6151356923070328,
+          "high_95": 1.909652205872809
+        },
+        "rmse": {
+          "low_95": 2.1725793089748,
+          "high_95": 2.5902773421805096
+        },
+        "r2": {
+          "low_95": 0.2298517566775472,
+          "high_95": 0.40417413554360193
+        },
+        "pearson": {
+          "low_95": 0.4947706635904026,
+          "high_95": 0.6402494048121042
+        },
+        "spearman": {
+          "low_95": 0.38113330750291474,
+          "high_95": 0.530037538976678
+        }
+      },
+      "prediction_interval_half_width": 2.422615616732687,
+      "prediction_interval_empirical_coverage": 0.7777777777777778
+    }
+  },
+  "limitations": [
+    "No RNA-seq expression matrix in the first run.",
+    "Chemical structure descriptors are not used: the official annotation supplies InChIKey, not a reconstructable structure string.",
+    "Intervals are marginal split-conformal intervals and do not guarantee conditional coverage for a specific cell or compound.",
+    "GDSC2 measures endpoint viability at 72 h; predictions are not death rates or clinical outcomes."
+  ]
+}

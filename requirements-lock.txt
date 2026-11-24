@@ -1,0 +1,18 @@
+# Environment used for the verified local test run (Python 3.11.9).
+# The local PyTorch build included CUDA 12.8; the unqualified PyPI build is pinned
+# here for portability. Use requirements.txt if this exact platform is unavailable.
+numpy==2.4.4
+pandas==2.3.3
+scipy==1.17.1
+scikit-learn==1.9.1
+openpyxl==3.1.5
+python-calamine==0.9.1
+requests==2.33.1
+PyYAML==6.0.3
+joblib==1.6.0
+plotly==6.9.0
+streamlit==1.67.0
+torch==2.11.0
+pytest==8.4.2
+rdkit==2026.9.2
+

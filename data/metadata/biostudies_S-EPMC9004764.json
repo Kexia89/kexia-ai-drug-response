@@ -1,0 +1,244 @@
+{
+  "accno" : "S-EPMC9004764",
+  "attributes" : [ {
+    "name" : "DataSource",
+    "value" : "Europe PMC"
+  }, {
+    "name" : "Title",
+    "value" : "Quantification of long-term doxorubicin response dynamics in breast cancer cell lines to direct treatment schedules."
+  }, {
+    "name" : "ReleaseDate",
+    "value" : "2022-01-01"
+  }, {
+    "name" : "AttachTo",
+    "value" : "EuropePMC"
+  } ],
+  "section" : {
+    "type" : "Study",
+    "attributes" : [ {
+      "name" : "Title",
+      "value" : "Quantification of long-term doxorubicin response dynamics in breast cancer cell lines to direct treatment schedules."
+    }, {
+      "name" : "Abstract",
+      "value" : "While acquired chemoresistance is recognized as a key challenge to treating many types of cancer, the dynamics with which drug sensitivity changes after exposure are poorly characterized. Most chemotherapeutic regimens call for repeated dosing at regular intervals, and if drug sensitivity changes on a similar time scale then the treatment interval could be optimized to improve treatment performance. Theoretical work suggests that such optimal schedules exist, but experimental confirmation has been obstructed by the difficulty of deconvolving the simultaneous processes of death, adaptation, and regrowth taking place in cancer cell populations. Here we present a method of optimizing drug schedules in vitro through iterative application of experimentally calibrated models, and demonstrate its ability to characterize dynamic changes in sensitivity to the chemotherapeutic doxorubicin in three breast cancer cell lines subjected to treatment schedules varying in concentration, interval between pulse treatments, and number of sequential pulse treatments. Cell populations are monitored longitudinally through automated imaging for 600-800 hours, and this data is used to calibrate a family of cancer growth models, each consisting of a system of ordinary differential equations, derived from the bi-exponential model which characterizes resistant and sensitive subpopulations. We identify a model incorporating both a period of growth arrest in surviving cells and a delay in the death of chemosensitive cells which outperforms the original bi-exponential growth model in Akaike Information Criterion based model selection, and use the calibrated model to quantify the performance of each drug schedule. We find that the inter-treatment interval is a key variable in determining the performance of sequential dosing schedules and identify an optimal retreatment time for each cell line which extends regrowth time by 40%-239%, demonstrating that the time scale of changes in chemosensitivity following doxorubicin exposure allows optimization of drug scheduling by varying this inter-treatment interval."
+    } ],
+    "files" : [ {
+      "path" : "pcbi.1009104.s001.pdf",
+      "size" : 2353012,
+      "type" : "file"
+    } ],
+    "subsections" : [ {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "National Institutes of Health"
+      }, {
+        "name" : "grant_id",
+        "value" : "U24CA226110"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "National Cancer Institute"
+      }, {
+        "name" : "grant_id",
+        "value" : "R01CA226258"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NCI NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "U01 CA142565"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "National Institutes of Health"
+      }, {
+        "name" : "grant_id",
+        "value" : "U01CA253540"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NCI NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "U01 CA174706"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "National Institutes of Health"
+      }, {
+        "name" : "grant_id",
+        "value" : "CA174706"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NCI NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "R01 CA226258"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "National Institutes of Health"
+      }, {
+        "name" : "grant_id",
+        "value" : "CA142565"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "National Institutes of Health"
+      }, {
+        "name" : "grant_id",
+        "value" : "R01CA240589"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "Cancer Prevention and Research Institute of Texas"
+      }, {
+        "name" : "grant_id",
+        "value" : "RR160005 and CPRIT Scholarship of Cancer Research"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NCI NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "U01 CA253540"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NCI NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "U24 CA226110"
+      } ]
+    }, {
+      "type" : "Funding",
+      "attributes" : [ {
+        "name" : "Agency",
+        "value" : "NCI NIH HHS"
+      }, {
+        "name" : "grant_id",
+        "value" : "R01 CA240589"
+      } ]
+    }, {
+      "type" : "Publication",
+      "attributes" : [ {
+        "name" : "Journal",
+        "value" : "PLoS computational biology"
+      }, {
+        "name" : "Volume",
+        "value" : "18(3)"
+      }, {
+        "name" : "Pages",
+        "value" : "e1009104"
+      }, {
+        "name" : "Publication date",
+        "value" : "2022 Mar"
+      } ],
+      "links" : [ [ {
+        "url" : "10.1371/journal.pcbi.1009104",
+        "attributes" : [ {
+          "name" : "Type",
+          "value" : "DOI"
+        } ]
+      }, {
+        "url" : "PMC9004764",
+        "attributes" : [ {
+          "name" : "Type",
+          "value" : "PMC"
+        } ]
+      }, {
+        "url" : "35358172",
+        "attributes" : [ {
+          "name" : "Type",
+          "value" : "PMID"
+        } ]
+      } ] ]
+    }, {
+      "accno" : "a1",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Howard GR"
+      }, {
+        "name" : "ORCID",
+        "value" : "0000-0003-4731-7251"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a2",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Jost TA"
+      }, {
+        "name" : "ORCID",
+        "value" : "0000-0002-0338-1940"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a3",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Yankeelov TE"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "a4",
+      "type" : "Author",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Brock A"
+      }, {
+        "name" : "ORCID",
+        "value" : "0000-0001-8255-9024"
+      }, {
+        "name" : "affiliation",
+        "value" : "o1",
+        "reference" : true
+      } ]
+    }, {
+      "accno" : "o1",
+      "type" : "Organization",
+      "attributes" : [ {
+        "name" : "Name",
+        "value" : "Department of Biomedical Engineering, The University of Texas at Austin, Austin, Texas, United States of America."
+      } ]
+    } ]
+  },
+  "type" : "submission"
+}

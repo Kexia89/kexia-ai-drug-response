@@ -1,0 +1,388 @@
+{
+  "generated_at_utc": "2026-11-17T04:04:41.941304+00:00",
+  "source": "ChEMBL REST API, EMBL-EBI",
+  "api_base": "https://www.ebi.ac.uk/chembl/api/data",
+  "raw_payloads": [
+    "data/metadata/chembl_molecules_batch_1.json",
+    "data/metadata/chembl_molecules_batch_2.json",
+    "data/metadata/chembl_molecules_batch_3.json",
+    "data/metadata/chembl_inchikey_batch_1.json",
+    "data/metadata/chembl_inchikey_batch_2.json",
+    "data/metadata/chembl_inchikey_batch_3.json"
+  ],
+  "verification": "Exact standard InChIKey match when a CMP InChIKey was supplied; no inferred structures accepted.",
+  "input_compounds": 295,
+  "resolved_structures": 210,
+  "unique_scaffolds": 191,
+  "failures": [
+    {
+      "DRUG_ID": 1784,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 1783,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 1782,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 1780,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 1779,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 1785,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 1834,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 1833,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 1832,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 1829,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 1828,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 1826,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 1825,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 1824,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 1821,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 1820,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 1777,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 1776,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 1738,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 1586,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 1585,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 1584,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 1734,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 1733,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 1732,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 1730,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 1718,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 1716,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 1714,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 1713,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 1712,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 1709,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 1708,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 1739,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 1836,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 1839,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 2046,
+      "reason": "inchi_key_mismatch",
+      "returned": "GMIZZEXBPRLVIV-SECBINFHSA-N"
+    },
+    {
+      "DRUG_ID": 2003,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 2002,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 2000,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 2112,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 2113,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 2438,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 2362,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 2361,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 2360,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 2154,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 2149,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 2145,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 1999,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 1838,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 1998,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 1873,
+      "reason": "inchi_key_mismatch",
+      "returned": "CWHUFRVAEUJCEF-UHFFFAOYSA-N"
+    },
+    {
+      "DRUG_ID": 1866,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 1844,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 1840,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 1932,
+      "reason": "inchi_key_mismatch",
+      "returned": "LSFLAQVDISHMNB-AFARHQOCSA-N"
+    },
+    {
+      "DRUG_ID": 1928,
+      "reason": "inchi_key_mismatch",
+      "returned": "XQCGNURMLWFQJR-ZNDDOCHDSA-N"
+    },
+    {
+      "DRUG_ID": 1005,
+      "reason": "inchi_key_mismatch",
+      "returned": null
+    },
+    {
+      "DRUG_ID": 1996,
+      "reason": "inchi_key_mismatch",
+      "returned": "RGGFUBMUOVFZEF-LDRVEFRDSA-N"
+    },
+    {
+      "DRUG_ID": 1004,
+      "reason": "inchi_key_mismatch",
+      "returned": "JXLYSJRDGCGARV-CFWMRBGOSA-N"
+    },
+    {
+      "DRUG_ID": 1594,
+      "reason": "inchi_key_mismatch",
+      "returned": "JROFGZPOBKIAEW-HAQNSBGRSA-N"
+    },
+    {
+      "DRUG_ID": 1091,
+      "reason": "inchi_key_mismatch",
+      "returned": "ZWVZORIKUNOTCS-OAQYLSRUSA-N"
+    },
+    {
+      "DRUG_ID": 1084,
+      "reason": "inchi_key_mismatch",
+      "returned": "QFJCIRLUMZQUOT-HPLJOQBZSA-N"
+    },
+    {
+      "DRUG_ID": 1941,
+      "reason": "inchi_key_mismatch",
+      "returned": "OTSOOHRUMBRSHZ-UHFFFAOYSA-N"
+    },
+    {
+      "DRUG_ID": 1249,
+      "reason": "inchi_key_mismatch",
+      "returned": "PSPFQEBFYXJZEV-UHFFFAOYSA-N"
+    },
+    {
+      "DRUG_ID": 1559,
+      "reason": "inchi_key_mismatch",
+      "returned": "NDAZATDQFDPQBD-UHFFFAOYSA-N"
+    },
+    {
+      "DRUG_ID": 1812,
+      "reason": "inchi_key_mismatch",
+      "returned": "OYVAGSVQBOHSSS-UAPAGMARSA-O"
+    },
+    {
+      "DRUG_ID": 1510,
+      "reason": "inchi_key_mismatch",
+      "returned": "PKCDDUHJAFVJJB-VLZXCDOPSA-N"
+    },
+    {
+      "DRUG_ID": 1068,
+      "reason": "inchi_key_mismatch",
+      "returned": "RFTSSZJZXOSICM-GRSHGNNSSA-N"
+    },
+    {
+      "DRUG_ID": 2177,
+      "reason": "inchi_key_mismatch",
+      "returned": "SWDRCWYJKXAIFB-UHFFFAOYSA-N"
+    },
+    {
+      "DRUG_ID": 1917,
+      "reason": "inchi_key_mismatch",
+      "returned": "OHUHVTCQTUDPIJ-MUWSIPGASA-N"
+    },
+    {
+      "DRUG_ID": 1259,
+      "reason": "inchi_key_mismatch",
+      "returned": "HWGQMRYQVZSGDQ-HZPDHXFCSA-N"
+    },
+    {
+      "DRUG_ID": 1428,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 1563,
+      "reason": "not_found_in_fetched_chembl_records"
+    },
+    {
+      "DRUG_ID": 1512,
+      "reason": "inchi_key_mismatch",
+      "returned": "SDUQYLNIPVEERB-QPPQHZFASA-N"
+    },
+    {
+      "DRUG_ID": 1053,
+      "reason": "inchi_key_mismatch",
+      "returned": "ULDXWLCXEDXJGE-UHFFFAOYSA-N"
+    },
+    {
+      "DRUG_ID": 1052,
+      "reason": "inchi_key_mismatch",
+      "returned": "XOLMRFUGOINFDQ-YBEGLDIGSA-N"
+    },
+    {
+      "DRUG_ID": 1061,
+      "reason": "inchi_key_mismatch",
+      "returned": "MLSAQOINCGAULQ-QFMPWRQOSA-N"
+    },
+    {
+      "DRUG_ID": 1175,
+      "reason": "inchi_key_mismatch",
+      "returned": "HMABYWSNWIZPAG-UHFFFAOYSA-N"
+    },
+    {
+      "DRUG_ID": 1170,
+      "reason": "inchi_key_mismatch",
+      "returned": "OWPMENVYXDJDOW-UHFFFAOYSA-N"
+    },
+    {
+      "DRUG_ID": 1786,
+      "reason": "inchi_key_mismatch",
+      "returned": "PKCWEIUDUFDFAG-OAQYLSRUSA-N"
+    },
+    {
+      "DRUG_ID": 1806,
+      "reason": "inchi_key_mismatch",
+      "returned": null
+    },
+    {
+      "DRUG_ID": 1089,
+      "reason": "inchi_key_mismatch",
+      "returned": null
+    },
+    {
+      "DRUG_ID": 1069,
+      "reason": "inchi_key_mismatch",
+      "returned": "MIDUFIRTIFUTQA-UHFFFAOYSA-N"
+    }
+  ]
+}

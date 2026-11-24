@@ -1,0 +1,83 @@
+{
+  "generated_at_utc": "2026-11-18T02:46:25.918105+00:00",
+  "source_repository": "https://github.com/brocklab/Drug-Response-Dynamics-Model-Calibration",
+  "source_commit": "d854c6524c0a65d705924bc2f9ff69e1c3fee1b8",
+  "article_doi": "10.1371/journal.pcbi.1009104",
+  "biostudies_accession": "S-EPMC9004764",
+  "rows": 202056,
+  "files": [
+    {
+      "name": "BT474_Drug_Concentration.xlsx",
+      "bytes": 109513,
+      "sha256": "338e7db0b68e991139d3707a3c8045f88405d43c8fbd6665e0452c07a20e35ab"
+    },
+    {
+      "name": "BT474_Inter-Treatment_Interval_pt1.xlsx",
+      "bytes": 106547,
+      "sha256": "0cb90547e09bfc2b02a1189f49881191eead5142f2df94698355eaf2fc4e02dd"
+    },
+    {
+      "name": "BT474_Inter-Treatment_Interval_pt2.xlsx",
+      "bytes": 117972,
+      "sha256": "3933c043ce0419512c653d2207934f7e2908c139d7c77d886effcc39e1aa60f6"
+    },
+    {
+      "name": "BT474_Serial_Treatment.xlsx",
+      "bytes": 187964,
+      "sha256": "89eb72a7c8af4f10ea0e0fc218a38e3675daed915dc76beb440a96a5d58ea771"
+    },
+    {
+      "name": "MCF7_Drug_Concentration.xlsx",
+      "bytes": 124213,
+      "sha256": "c74c002bbbdcf259563031bcabd6893e3b7e6cd86e90a45c4151901b0d9d75d5"
+    },
+    {
+      "name": "MCF7_Inter-Treatment_Interval_pt1.xlsx",
+      "bytes": 118396,
+      "sha256": "0673cf2ef2225954503893d306fe895d75aa155ffe0b427499980b5322d8d54a"
+    },
+    {
+      "name": "MCF7_Inter-Treatment_Interval_pt2.xlsx",
+      "bytes": 102467,
+      "sha256": "c162acda9a89bc9b050cfb4f9bfe58b6e5f0e4f0e7930900ab237f621a213387"
+    },
+    {
+      "name": "MCF7_Serial_Treatment.xlsx",
+      "bytes": 102619,
+      "sha256": "060d61353928901a067494d1d2d980878c3abe30ac1c101b7739c2cfd0de89e9"
+    },
+    {
+      "name": "MDA-MB-231_Drug_Concentration.xlsx",
+      "bytes": 94969,
+      "sha256": "14885b261f17e888b392414a0dd19df9e9f250edb9ad9949c4bab29dd8032301"
+    },
+    {
+      "name": "MDA-MB-231_Inter-Treatment_Interval_pt1.xlsx",
+      "bytes": 52371,
+      "sha256": "00ba2e520e7e704355920d6727728bbe60a18d979b105b65fe5de826aefafe3b"
+    },
+    {
+      "name": "MDA-MB-231_Inter-Treatment_Interval_pt2.xlsx",
+      "bytes": 118595,
+      "sha256": "f8a68833da6b168643eefb260aae496e355c053efbfb1761e91149ddc353c44c"
+    },
+    {
+      "name": "MDA-MB-231_Serial_Treatment.xlsx",
+      "bytes": 166044,
+      "sha256": "a49ae7dc68a3fddb8fbc5046187b22ac357418ed98dcbdbbba0d77fb05486e8d"
+    }
+  ],
+  "cell_lines": [
+    "BT-474",
+    "MCF7",
+    "MDA-MB-231"
+  ],
+  "elapsed_hours_range": [
+    0.0,
+    1312.03333333333
+  ],
+  "concentration_unit": "nM",
+  "measurement_unit": "Green Object Count per well",
+  "zero_handling": "Values are retained. Entire time points with zero across all conditions are flagged as likely acquisition gaps.",
+  "license_status": "No LICENSE file detected in the source repository. The associated PLOS article is CC BY; repository/data reuse terms require independent review before redistribution."
+}

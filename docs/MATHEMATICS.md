@@ -7,8 +7,8 @@ Este documento separa explícitamente tres objetos que no deben confundirse: el 
 Para cada pozo tratado de una placa:
 
 $$
-v = \frac{I - \operatorname{mediana}(B)}
-{\operatorname{mediana}(NC\!\!-\!1)-\operatorname{mediana}(B)},
+v = \frac{I - \mathrm{mediana}(B)}
+{\mathrm{mediana}(NC\!\!-\!1)-\mathrm{mediana}(B)},
 $$
 
 donde $I$ es la intensidad del pozo, $B$ el control blanco sin células y `NC-1` el control de vehículo. Sólo se aceptan placas con rango dinámico positivo. Los valores no se recortan a $[0,1]$: 31.23% quedaron por encima de 1 y 0.027% por debajo de 0, preservando variación experimental y de controles.
@@ -46,11 +46,11 @@ Las predicciones y errores del modelo están en escala logarítmica natural. Un 
 Para $n$ observaciones con residuo $e_i=y_i-\hat y_i$:
 
 $$
-\operatorname{MAE}=\frac1n\sum_{i=1}^{n}|e_i|,
+\mathrm{MAE}=\frac1n\sum_{i=1}^{n}|e_i|,
 $$
 
 $$
-\operatorname{RMSE}=\sqrt{\frac1n\sum_{i=1}^{n}e_i^2},
+\mathrm{RMSE}=\sqrt{\frac1n\sum_{i=1}^{n}e_i^2},
 $$
 
 $$
@@ -132,7 +132,7 @@ $$
 Se ajusta con el 70% temporal inicial y se evalúa en el 30% final. La métrica normalizada es
 
 $$
-\operatorname{NRMSE}=\frac{\operatorname{RMSE}}{\max(N_{test})-\min(N_{test})}.
+\mathrm{NRMSE}=\frac{\mathrm{RMSE}}{\max(N_{test})-\min(N_{test})}.
 $$
 
 La mediana observada fue 0.669, insuficiente para declarar validado el crecimiento logístico fuera de muestra. Los datos de doxorrubicina contienen pulsos, dosis seriales, retardos y recuperación que la ODE constante actual no representa.
